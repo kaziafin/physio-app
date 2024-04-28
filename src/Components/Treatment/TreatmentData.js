@@ -6,6 +6,7 @@ const TreatmentDatas = () => {
     { id: 1, name: 'Treatment 1', description: 'Description 1' },
     { id: 2, name: 'Treatment 2', description: 'Description 2' },
     { id: 3, name: 'Treatment 3', description: 'Description 3' },
+    { id: 3, name: 'Treatment 3', description: 'Description 3' },
     // Add more treatment items as needed
   ];
 
