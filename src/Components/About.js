@@ -14,7 +14,10 @@ const About = () => {
           />
         </div>
         <div className="text-center md:text-left">
-          <span className="text-blue text-lg"> About Us</span>
+        <div className="text-center mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue mb-2">About Us</h1>
+        </div>
+          {/* <span className="text-6xl text-blue text-lg"> About Us</span> */}
           <h2 className="text-3xl md:text-4xl leading-10 text-black pt-2">
             True Healthcare For Your Family
           </h2>
