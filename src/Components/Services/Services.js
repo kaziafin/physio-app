@@ -5,7 +5,7 @@ import ServiceItem from './ServiceItems';
 
 const Service = () => {
   return (
-    <section className="py-20">
+    <section  name='service' className="py-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-6">
           <h1 className="text-4xl md:text-5xl font-bold text-blue mb-2">Our Services </h1>

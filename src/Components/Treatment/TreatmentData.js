@@ -16,14 +16,14 @@ const TreatmentDatas = () => {
   return (
     <div className="treatment-container bg-white p-6 rounded-lg shadow-lg">
       <h2 className="text-3xl font-bold mb-4 text-blue-600">Our Treatments</h2>
-      <ul className="space-y-6">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {treatmentData.map(treatment => (
-          <li key={treatment.id} className="border p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div key={treatment.id} className="border p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
             <h3 className="text-xl font-semibold text-gray-800">{treatment.name}</h3>
             <p className="text-gray-600">{treatment.description}</p>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
