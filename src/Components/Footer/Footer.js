@@ -6,6 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
+<<<<<<< HEAD
         <h3>Dr.MubinaKazi</h3>
           <span>Address.Crescent Multispecialty Clinic,shope No. 13/12,
            </span>
@@ -16,6 +17,13 @@ const Footer = () => {
              phase 1,
              Taloja ,Navi Mumbai
            </span>
+=======
+          <h3>Dr.MubinaKazi</h3>
+          <p>Address.Crescent Multispecialty Clinic,shope No. 13/12,
+          Shelter Riverside, Plot No.114,sector 14, phase 1,
+             Taloja ,Navi Mumbai
+          </p>
+>>>>>>> 36a19e01c95afa88d02426fe40b451f3382e0f4a
         </div>
         <div className="footer-right">
           <h3>Contact Us</h3>
