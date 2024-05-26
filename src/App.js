@@ -10,6 +10,7 @@ import { Routes, Route, Router } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Benefits from './Components/Benefits';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
   <Home id="home" />
   <About id="about" />
   <Service id="Service" />
+  <Benefits id="benefits" />
   <TreatmentList id="TreatmentList" />
 < Footer />
 </div>

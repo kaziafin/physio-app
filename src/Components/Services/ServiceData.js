@@ -7,6 +7,8 @@ import DryCuppingTherapy from '../../assets/DryCuppingTherapy.jpeg';
 import NeurologicalRehabilitation from '../../assets/NeurologicalRehabilitation.jpeg';
 import PaediatricRehabilitation from '../../assets/PaediatricRehabilitation.jpeg';
 import MuscleStimulator from '../../assets/MuscleStimulator.jpeg';
+import Mainpage from '../../assets/Mainpage.jpeg';
+import servies from '../../assets/servies.jpeg'
 export const ServiceData = [
     {
       img: Ultrasound,
@@ -20,7 +22,7 @@ export const ServiceData = [
     },
     {
         img: interferentail,
-        title: "Interferentail Therapy",
+        title: "Interferential Therapy",
         desc: "Description 1",
       },
       {
@@ -54,6 +56,17 @@ export const ServiceData = [
         desc: "Description 1",
       },
 
+      {
+        img: Mainpage,
+        title: "physiotherapy after knee surgery",
+        desc: "Description 1",
+      },
+      
+      {
+        img: servies,
+        title: "Vesitbular Rehabilitation",
+        desc: "Description 1",
+      },
 
      
     // Add more items as needed

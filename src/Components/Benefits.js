@@ -1,27 +1,25 @@
-import React from 'react';
-import AboutImg from '../assets/main-qimg-fe2e166a3f11d01a87a341fed86f1cd8-pjlq.jpeg';
+import React from 'react'
+import BenefitsImg from '../assets/backgoundimage.png';
 import '../style/About.css';
-const About = () => {
+export default function Benefits() {
   return (
-    <section name='about' className="about-section">
+    <section name='benefits' className="about-section">
       <div className="about-container">
         <div className="about-grid">
           <div className="about-image-wrapper">
             <img
-              src={AboutImg}
+              src={BenefitsImg}
               className="about-image"
               alt="about us"
             />
           </div>
           <div className="about-text-wrapper">
             <div className="about-title-wrapper">
-              <h1 className="about-title">About Us</h1>
+              <h1 className="about-title">Benefits</h1>
             </div>
-            <h2 className="about-subtitle">
-            Since 2017, I have been providing affordable, high-quality healthcare to the Navi Mumbai Taloja community and surrounding areas.
-            </h2>
-            <div className="about-list">
-              {/* <li className="about-list-item">
+            
+            <ul className="about-list">
+              <li className="about-list-item">
                 <strong>Eliminating or Reducing Pain:</strong> Techniques like Soft Tissue Mobilization and modalities such as TENS, IFT, and Ultrasound help alleviate pain from arthritis, muscle strain, sprain, and tendonitis, ensuring normalcy.
               </li>
               <li className="about-list-item">
@@ -32,14 +30,11 @@ const About = () => {
               </li>
               <li className="about-list-item">
                 <strong>Reducing Dependency on Medicines:</strong> By addressing pain and other issues through physical methods, physiotherapy can reduce the need for medications and their associated side effects.
-              </li> */}
-              Dr.Mubina Kazi through her exceptional communication skills and a huge experience educates his patients and makes them aware of physical health & fitness. Under his guidance on lifestyle changes, food habits and fitness training many patients have got benefited to date.
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
-export default About;

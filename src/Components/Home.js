@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./Button";
-import BackgroundImage from "../assets/physiotherapy-treatment-in-thrissur-5.jpeg";
+import Button from "./Benefits";
+import BackgroundImage from "../assets/03.jpg";
 
 const Home = () => {
   return (

@@ -8,6 +8,7 @@ const Navbar = () => {
     { name: "HOME", link: "home" },
     { name: "ABOUT", link: "about" },  
     { name: "SERVICE", link: "service" },
+    { name: "BENEFITS", link: "benefits" },
     { name: "TREATMENTLIST", link: "treatments" },
   ];
 
@@ -18,7 +19,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="nav-logo">
           <img src={LogoImage} alt="Logo" className="logo" />
-          <span className="logo-highlight">VitalityPhysioMD.</span>
+          <span className="logo-highlight">Physiotherapywithdrmubina</span>
         </div>
         <div className="nav-toggle" onClick={() => setOpen(!open)}>
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
