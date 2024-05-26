@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from '../assets/main-qimg-fe2e166a3f11d01a87a341fed86f1cd8-pjlq.jpeg';
+import AboutImg from '../assets/Mainpage.jpeg';
 import '../style/About.css';
 const About = () => {
   return (

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import Button from '../Button';
-import LogoImage from '../../assets/logo3.jpg'; 
+import LogoImage from '../../assets/logo.jpg'; 
 import '../../style/Navbar.css'; // Assuming you have a Navbar.css file
 
 const Navbar = () => {
@@ -9,7 +8,7 @@ const Navbar = () => {
     { name: "HOME", link: "home" },
     { name: "ABOUT", link: "about" },  
     { name: "SERVICE", link: "service" },
-    { name: "TREATMENTLIST", link: "TreatmentList" },
+    { name: "TREATMENTLIST", link: "treatments" },
   ];
 
   const [open, setOpen] = useState(false);
@@ -19,7 +18,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="nav-logo">
           <img src={LogoImage} alt="Logo" className="logo" />
-          <span className="logo-highlight">physioFlex.</span>
+          <span className="logo-highlight">VitalityPhysioMD.</span>
         </div>
         <div className="nav-toggle" onClick={() => setOpen(!open)}>
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>

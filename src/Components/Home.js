@@ -18,17 +18,23 @@ const Home = () => {
             Let us brighten your Health
           </h2>
           <p className="py-5 leading-8 text-blue">
-            At{" "}
-            <span className="font-bold">
-              Physio<span className="text-blue">Care</span>
-            </span>
-            , we offer physiotherapy treatments that restore mobility and
-            function. Using researched methods, we help alleviate pain and
-            prevent further injury. Our services benefit all ages, promoting
-            optimal health and preventing disease.
+            Welcome to{" "}
+            <span className="font-bold">Physiotherapy by Dr. Mubina Kazi</span>,
+            where we specialize in restoring mobility and enhancing function
+            through advanced physiotherapy treatments. Our tailored approach,
+            backed by extensive research, is designed to alleviate pain
+            effectively while minimizing the risk of future injuries.
+            <br />
+            Led by Dr. Mubina Kazi, a trusted expert in the field, our practice
+            is dedicated to optimizing health and wellness across all age
+            groups. From injury rehabilitation to proactive preventive care, we
+            are committed to delivering personalized solutions that promote
+            vitality and enhance overall quality of life.
           </p>
 
           {/* <Button>Get Appointment</Button> */}
+
+          {/* </div> */}
         </div>
       </div>
     </section>
