@@ -6,7 +6,7 @@ import cervical from '../../assets/Cervical Traction.jpeg';
 import DryCuppingTherapy from '../../assets/DryCuppingTherapy.jpeg';
 import NeurologicalRehabilitation from '../../assets/NeurologicalRehabilitation.jpeg';
 import PaediatricRehabilitation from '../../assets/PaediatricRehabilitation.jpeg';
-import child from '../../assets/child.jpeg';
+import MuscleStimulator from '../../assets/MuscleStimulator.jpeg';
 export const ServiceData = [
     {
       img: Ultrasound,
@@ -49,8 +49,8 @@ export const ServiceData = [
         desc: "Description 1",
       },
       {
-        img: child,
-        title: "",
+        img: MuscleStimulator,
+        title: "Muscle Stimulator",
         desc: "Description 1",
       },
 

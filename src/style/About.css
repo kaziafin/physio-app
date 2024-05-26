@@ -1,0 +1,87 @@
+/* About.css */
+.about-section {
+    padding: 60px 20px; /* Increased padding for better spacing */
+    background-color: #f0f0f0; /* Light background color for contrast */
+    font-family: 'Poppins', sans-serif; /* Consistent font */
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px; /* Increased gap for better spacing */
+  }
+  
+  .about-image-wrapper {
+    text-align: center; /* Center align the image on smaller screens */
+  }
+  
+  .about-image {
+    width: 100%;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .about-text-wrapper {
+    text-align: center; /* Center align text on smaller screens */
+  }
+  
+  .about-title-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-title {
+    font-size: 3rem; /* Larger title for emphasis */
+    font-weight: bold;
+    color: #333; /* Standard text color */
+    margin-bottom: 20px;
+  }
+  
+  .about-subtitle {
+    font-size: 2rem; /* Slightly larger subtitle */
+    color: #f1c40f; /* Highlight color for the subtitle */
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    color: #666; /* Softer text color for description */
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  .about-list {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+    color: #666; /* Softer text color for list items */
+  }
+  
+  .about-list-item {
+    margin-bottom: 20px; /* Space between list items */
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  .about-list-item strong {
+    color: #f1c40f; /* Highlight color for emphasis */
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .about-grid {
+      grid-template-columns: 1fr 1fr; /* Two-column layout for larger screens */
+      gap: 40px;
+    }
+  
+    .about-text-wrapper {
+      text-align: left; /* Left align text on larger screens */
+    }
+  
+    .about-title-wrapper {
+      text-align: left;
+    }
+  }
+  

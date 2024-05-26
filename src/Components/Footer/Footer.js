@@ -6,8 +6,16 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h3>PhysioCare</h3>
-          <p>A brief description of the company.</p>
+        <h3>Dr.MubinaKazi</h3>
+          <span>Address.Crescent Multispecialty Clinic,shope No. 13/12,
+           </span>
+           <br/>
+           <span>
+            Shelter Riverside, Plot No.114,sector 14,
+            <br/>
+             phase 1,
+             Taloja ,Navi Mumbai
+           </span>
         </div>
         <div className="footer-right">
           <h3>Contact Us</h3>

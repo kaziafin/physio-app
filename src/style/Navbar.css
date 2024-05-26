@@ -1,0 +1,88 @@
+.navbar {
+  width: 100%;
+  background-color: #333; /* Dark background for a professional look */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1200px; /* Constrain width for better readability */
+  margin: 0 auto; /* Center align the container */
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+    height: 50px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.logo-highlight {
+  color: #f1c40f; /* Highlight color for the logo */
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 24px;
+  color: #f1c40f; /* Highlight color for the toggle */
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f1c40f; /* Light text color for better contrast */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffff; /* Highlight color on hover */
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #333; /* Match the navbar background */
+    transition: all 0.3s ease;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .nav-links.open {
+    max-height: 300px; /* Adjust based on the number of items */
+  }
+
+  .nav-item {
+    justify-content: center;
+    padding: 10px 0;
+  }
+} 
