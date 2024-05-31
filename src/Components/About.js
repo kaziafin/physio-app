@@ -22,7 +22,7 @@ const About = () => {
             </h2>
             <div className="about-list">
               
-              Dr.Mubina Kazi through her exceptional communication skills and a huge experience educates her patients and makes them aware of physical health & fitness. Under his guidance on lifestyle changes, food habits and fitness training many patients have got benefited to date.
+              Dr.Mubina Kazi through her exceptional communication skills and a huge experience educates her patients and makes them aware of physical health & fitness. Under her guidance on lifestyle changes, food habits and fitness training many patients have got benefited to date.
             </div>
           </div>
         </div>
