@@ -21,19 +21,8 @@ const About = () => {
             Since 2017, I have been providing affordable, high-quality healthcare to the Navi Mumbai Taloja community and surrounding areas.
             </h2>
             <div className="about-list">
-              {/* <li className="about-list-item">
-                <strong>Eliminating or Reducing Pain:</strong> Techniques like Soft Tissue Mobilization and modalities such as TENS, IFT, and Ultrasound help alleviate pain from arthritis, muscle strain, sprain, and tendonitis, ensuring normalcy.
-              </li>
-              <li className="about-list-item">
-                <strong>Avoiding Surgery:</strong> Physiotherapy can manage and heal conditions in the early stages, potentially avoiding the need for surgery. It also aids in pre- and post-surgery rehabilitation to reduce complications.
-              </li>
-              <li className="about-list-item">
-                <strong>Improving Strength and Coordination:</strong> Physiotherapy includes exercises and stretches that enhance overall strength and body coordination, beneficial for symptoms like vertigo or dizziness.
-              </li>
-              <li className="about-list-item">
-                <strong>Reducing Dependency on Medicines:</strong> By addressing pain and other issues through physical methods, physiotherapy can reduce the need for medications and their associated side effects.
-              </li> */}
-              Dr.Mubina Kazi through her exceptional communication skills and a huge experience educates his patients and makes them aware of physical health & fitness. Under his guidance on lifestyle changes, food habits and fitness training many patients have got benefited to date.
+              
+              Dr.Mubina Kazi through her exceptional communication skills and a huge experience educates her patients and makes them aware of physical health & fitness. Under his guidance on lifestyle changes, food habits and fitness training many patients have got benefited to date.
             </div>
           </div>
         </div>

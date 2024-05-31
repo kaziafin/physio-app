@@ -1,5 +1,5 @@
 import React from 'react'
-import BenefitsImg from '../assets/backgoundimage.png';
+import BenefitsImg from '../assets/lower-limb-pain.jpg';
 import '../style/About.css';
 export default function Benefits() {
   return (

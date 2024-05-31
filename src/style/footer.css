@@ -1,48 +1,73 @@
-/* Modernized Footer Styles */
 .footer {
-  background-color: #333; /* Dark background for a modern look */
-  color: #fff; /* Light text for contrast */
-  padding: 40px 0; /* Increased padding for better spacing */
-  font-family: 'Arial', sans-serif; /* Clean and modern font */
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Align items to the top */
   flex-wrap: wrap;
-  max-width: 1200px; /* Constrain the width for better readability */
-  margin: 0 auto; /* Center align the footer content */
-  padding: 0 20px; /* Horizontal padding for content */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-
-.footer-left,
-.footer-right {
-  flex: 1;
-  min-width: 300px; /* Ensure a minimum width for better responsiveness */
-  margin-bottom: 20px; /* Spacing between sections on small screens */
-}
-
 .footer h3 {
   margin-bottom: 15px;
   font-size: 1.5rem; /* Larger and bold heading for better emphasis */
   color: #f1c40f; /* Highlight color for headings */
 }
+.footer-left,
+.footer-right {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
 
-.footer p {
+.footer-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #f1c40f;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footer-address {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.footer-right h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-right p {
   margin: 5px 0;
-  line-height: 1.6; /* Improved readability */
-  color: #ccc; /* Slightly softer color for paragraphs */
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom {
-  text-align: center;
   margin-top: 20px;
-  font-size: 0.9rem; /* Smaller font size for less emphasis */
-  color: #aaa; /* Softer color for footer bottom text */
+  font-size: 0.9em;
 }
 
-/* Responsive Design */
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
@@ -51,7 +76,25 @@
 
   .footer-left,
   .footer-right {
-    flex: none;
-    text-align: center; /* Center align text on small screens */
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .footer-title {
+    font-size: 1.2em;
+  }
+
+  .footer-right h3 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-title {
+    font-size: 1em;
+  }
+
+  .footer-right h3 {
+    font-size: 0.9em;
   }
 }
